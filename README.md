@@ -166,5 +166,3 @@ C:/cover/                # you provide; 128x128 PNGs
 ## Citation
 
 If you build on this code, cite the PD-FHC paper. Bibliographic details will be filled in once the paper is accepted; for now the artifact is anonymous.
-
-For the steganographic-computation primitive this work builds on, see ProSt (Ahmad and Rass, *IEEE Access*, 2026, DOI 10.1109/ACCESS.2026.3656995).
