@@ -1,0 +1,64 @@
+{
+  "circuit": "Small-Bool",
+  "timestamp": "20260428_113705",
+  "psnr": 51.12538425598073,
+  "compute_time_ms": 8.87450000118406,
+  "scenarios": [
+    {
+      "index": 0,
+      "type": "REAL",
+      "inputs": {
+        "A": 1,
+        "B": 0,
+        "C": 1
+      },
+      "outputs": {
+        "result": 1
+      },
+      "position": "(row=80, col=109, channel=0 [Red])",
+      "story": "Medical threshold: test_value > critical_level?"
+    },
+    {
+      "index": 1,
+      "type": "DECOY",
+      "inputs": {
+        "A": 0,
+        "B": 1,
+        "C": 0
+      },
+      "outputs": {
+        "result": 1
+      },
+      "position": "(row=95, col=123, channel=2 [Blue])",
+      "story": "Brightness: avg_brightness > print_threshold?"
+    },
+    {
+      "index": 2,
+      "type": "DECOY",
+      "inputs": {
+        "A": 1,
+        "B": 1,
+        "C": 0
+      },
+      "outputs": {
+        "result": 0
+      },
+      "position": "(row=44, col=40, channel=2 [Blue])",
+      "story": "Color balance: red_ratio > limit?"
+    },
+    {
+      "index": 3,
+      "type": "DECOY",
+      "inputs": {
+        "A": 0,
+        "B": 0,
+        "C": 1
+      },
+      "outputs": {
+        "result": 0
+      },
+      "position": "(row=63, col=70, channel=1 [Green])",
+      "story": "Noise: noise_level > quality_threshold?"
+    }
+  ]
+}
